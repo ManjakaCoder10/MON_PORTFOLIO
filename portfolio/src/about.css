@@ -1,0 +1,57 @@
+
+@media screen and (max-width: 861px) {
+#ImageAbout{
+    width: 3cm !important;
+    height: 8cm !important;
+    margin-top:1cm ;
+
+}
+.body-about{
+    margin-right: auto;
+}
+.card-body{
+  font-size: small;
+  height: auto;
+}
+
+
+      
+   }    
+@media screen and (max-width: 600px) {
+#ImageAbout{
+    width: 3cm !important;
+    height: 6cm !important;
+    margin-top:1cm ;
+
+}
+
+.body-about{
+   
+    display: block !important;
+   
+ 
+}
+.card2{
+
+width: 100%;
+display: block !important;
+
+}
+.card{
+    width: auto;
+    min-width: 3cm;
+    margin: auto !important;
+   
+    justify-content: center !important;
+}
+.card h5,p{
+font-size: smaller;
+}
+.card3{
+    
+ 
+    margin-top: 0.6cm  !important;
+}
+
+      
+   }    

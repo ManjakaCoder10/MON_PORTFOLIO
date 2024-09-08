@@ -1,0 +1,210 @@
+.card-skill{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card-body-skill{
+    display: flex;
+    justify-content: center;
+    padding-left: 2cm;
+    padding-right: 2cm;
+
+}
+.contenant1 h5{
+    margin-top: -0.1cm;
+}
+.contenant1{
+    display: flex;
+    margin-top: 1cm;
+    
+}
+.card-skill-droite{
+margin-left: 3cm;
+
+
+
+}
+.card-skill1{
+    width: 10cm !important;
+}
+
+.ensemble{
+    text-align: start;
+}
+.contenant2{
+    margin-left: 0.45cm;
+}
+
+@media screen and (max-width: 861px) {
+    .card-body-skill{
+        font-size: medium;
+    }
+    .Deux{
+        margin-left: 1cm !important;
+    }
+    .card-skill-droite{
+        margin-left: 1.5cm;
+        
+        
+        
+        }
+          
+    .skill{
+        margin: auto;
+    }
+
+    .card-skill1{
+        width: 8cm !important;
+    }
+       }  
+       
+
+
+
+           @media screen and (max-width: 694px) {
+            .card-body-skill{
+                font-size: medium;
+            }
+            .Deux{
+                margin-left: 0.5cm !important;
+            }
+            .card-skill-droite{
+                margin-left: 1cm;
+                
+                
+                
+                }
+                  
+            .skill{
+                margin: auto;
+            }
+        
+            .card-skill1{
+                width: 7cm !important;
+                justify-content: center;
+                margin: auto !important;
+            }
+            .contenant1 h5{
+                margin-top: 0.1cm;
+            }}
+
+
+            @media screen and (max-width: 600px) {
+                .card-skill{
+                    display: block !important;
+                    width: 100%;
+                    justify-content: center;
+                    margin: auto;
+                }
+              
+                
+                .card-body-skill{
+                    font-size: larger !important;
+                }
+           
+                .card-skill-droite{
+                    margin-left: 0.5cm;
+                    
+                    
+                    
+                    }
+                      
+                .skill{
+                    margin: auto;
+                   
+                }
+           
+            
+                .card-skill1{
+                    width: 7cm !important;
+                    justify-content: center !important;
+                    margin: auto !important;
+                }
+
+                .Deux{
+                    margin-top: 1cm !important;
+                }
+                .contenant1 h5{
+                    margin-top: 0.05cm;
+                }
+             
+                   }  
+                        
+       /*----------contact---------------------*/
+ 
+
+form{
+    position: flex !important;
+    justify-content: center !important;
+    width: 12cm;
+    align-items: center !important;
+    margin: auto;
+    
+}
+.form-control{
+    margin-top: 0.5cm;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    form{
+        position: flex !important;
+        justify-content: center !important;
+        width: 7cm;
+        align-items: center !important;
+        margin: auto;
+        
+    }
+ 
+       }  
+
+       @media screen and (max-width: 600px) {
+       .navbar{
+        height: 2cm;
+       }
+       .buttonOffcanvas{
+        margin-top: -1.5cm;
+       }
+       .logo{
+        margin-top: -2cm;
+       }
+     
+           }  
+
+
+
+         /* styles.css */
+/*.toast-custom {
+    max-width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .toast-body-custom {
+    font-size: 15px;
+  }*/
+
+/* 
+  
+  @media (min-width: 768px) {
+    .toast-custom {
+      max-width: 50%;
+    }
+    .toast-body-custom {
+      font-size: 18px;
+    }
+  }
+  */
+
+  @media (min-width: 600px) {
+    .toast-custom {
+      max-width: 70%;
+    }
+    .toast-body-custom {
+      font-size: 16px;
+    }
+  }
